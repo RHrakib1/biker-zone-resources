@@ -1,0 +1,22 @@
+h2{
+    color: chocolate;
+}
+.hasan{
+    box-shadow: 6px 5px 10px  darkblue;
+}
+.ew{
+    border: 2px solid black;
+    margin: 40px;
+    display: inline- block;
+}
+li{
+    display: inline-block;
+}
+.hed{
+    height: 100px;
+    background-image:url("1st.png");
+    background-size: 500px;
+}
+#ra{
+    color: blue;
+}

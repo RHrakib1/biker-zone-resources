@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        h2 {
+            color: rgb(239, 233, 233);
+            text-align: center;
+            background-color: #593030;
+            margin: 1px 500px;
+            padding: 5px;
+        }
+
+        /* hover style */
+        h2:hover {
+            color: cadetblue;
+            background-color: blueviolet;
+        }
+
+        input {
+            padding: 8px;
+            font-size: 18px;
+            outline: 0;
+            margin-bottom: 10px;
+        }
+
+        input:focus {
+            color: #fb1c1c;
+        }
+
+        a:visited {
+            color: #fb1c1c;
+        }
+
+        li:first-child {
+            background-color: #fcf7f7;
+        }
+
+        /* picture position */
+        .picture {
+            border: 2px dotted blue;
+            width: 200px;
+        }
+
+        /* relative style */
+        .ring {
+            position: relative;
+            top: 20px;
+            left: 10px;
+        }
+
+        /* absolute style */
+        .boy {
+            position: absolute;
+            top: 100px;
+        }
+
+        /* fixed */
+        .new-year {
+            position: fixed;
+            top: 5px;
+        }
+
+        .mammy {
+            border: 1px solid darkgreen;
+            width: 200px;
+            height: 200px;
+        }
+
+        .anothe {
+            border: 2px solid darkred;
+        }
+        /* sticky */
+        .water{
+            position: sticky;
+            top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>my first hadeing in life</h2>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <!--kono websit a dhukle kmn dekhabe r na dhukle kmn dekhabe --> <br>
+    <a href="https://www.google">Google</a>
+    <a href="https://www.w3.com">html</a>
+    <a href="https://www.britannica.com/place/Madagascar">madAGASTA</a>
+    <ul>
+        <li>rohim</li>
+        <li>korim</li>
+        <li>habibi</li>
+        <li>haekuliks</li>
+        <li>spaider man</li>
+    </ul>
+    <hr style="margin-left: 90px; margin-right:90px; padding: 2px; background-color: blue;">
+    <!--css position start-->
+    <h3>css position</h3>
+    <ol>
+        <!--flow reletede-->
+        <li>static: aita mane akdon savabik defult vabe jemon thake seta</li>
+        <li>relative: relative hosse element j jaigai ase sekhane theke koto kutu change hbe ta bujhai and tar
+            nirdharito jaiga sarbe </li>
+        <li>absolute: element a bebohar er fole tar nirdharito jaiga harai o akdom websit er opr theke left r8 top bottm
+            sora sori hoi.kintu jodi sei element er parant er kono position thake tahole websit onujae sora sori na kore
+            parant onujae sora sori krbe <br> example-- /* .father-div{
+            position: absolute/absolute;
+            } */</li>
+        <!--scroll related-->
+        <li>fixt: disply te kono ak jaigai atke thakbe scrol korleo oita nob na</li>
+        <li>sticky: disply te scrol korar somoy aktu atke thakbe tar por abr scrol hbe</li>
+    </ol>
+    <div class="father-div">
+        <div class="picture">
+            <img class="boy" src="boy/boy.svg" alt="">
+        </div>
+        <div class="picture">
+            <img class="ring" src="boy/ring.svg" alt="">
+        </div>
+        <div class="picture">
+            <img class="water" src="boy/water.svg" alt="">
+        </div>
+        <div class="picture">
+            <img class="new-year" src="boy/Group 96.png" alt="">
+        </div>
+        <div class="anothe">
+            <div class="mammy"></div>
+            <div class="mammy"></div>
+            <div class="mammy"></div>
+            <div class="mammy"></div>
+            <div class="mammy"></div>
+        </div>
+    </div>
+    <!--end-->
+
+</body>
+
+</html>

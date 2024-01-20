@@ -1,0 +1,25 @@
+.rahman{
+    color: rgb(244, 243, 247);
+    background-color: rgb(250, 13, 13);
+    height: 100px;
+    padding: 50px;
+}
+/* kono kisu hide kora */
+.tarin{
+    background-color: chocolate;
+    display: none;
+}
+/* end */
+/* start kono kisu hide kore kintu jaiga rekhe jai */
+.torabi{
+    visibility: hidden;
+}
+/* end */
+/* picture ana */
+header{
+    font-size: 40px;
+    background-image: url("1st.png");
+    
+    background-repeat: no-repeat;
+}
+/* end */

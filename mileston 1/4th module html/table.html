@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        td,th{
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+        
+        table{
+            border-collapse: collapse;
+        }
+    </style>
+    <link rel="stylesheet" href="tun.css">
+</head>
+<body>
+    <h1>table html</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li>
+                    <a href="table.html">Table</a>
+                    <ul>
+                        <li><a href="blogs.html">Blogs</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="video.html">Video</a></li>
+                    </ul>
+                </li>
+                <li><a href="video.html">Video</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <table >
+            <caption>student information</caption>
+            <thead>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>year</th>
+                    <th>reg</th>
+                    <th>roll</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>rakib</td>
+                    <td>2024</td>
+                    <td>2095500</td>
+                    <td>511100</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>hasan</td>
+                    <td>2024</td>
+                    <td>511222</td>
+                    <td>88888000</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>rakib</td>
+                    <td>2024</td>
+                    <td>2095500</td>
+                    <td>511100</td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>hasan</td>
+                    <td>2024</td>
+                    <td>511222</td>
+                    <td>88888000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">total student:4</td>
+                </tr>
+            </tfoot>
+        </table>
+    
+    </main>
+    
+</body>
+</html>

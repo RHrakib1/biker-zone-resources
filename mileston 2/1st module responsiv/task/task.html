@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 610px;
+            display: flex;
+            grid-template-columns: 300px auto;
+            gap: 10px;
+        }
+        .left, .right{
+            background-color: darkgrey;
+            border-radius: 5px;
+            text-align: center;
+            display: grid;
+            align-items: center;
+       
+        }
+        .right{
+            background-color: aquamarine;
+            border-radius: 5px;
+            text-align: center;
+            display: grid;
+            align-items: center;
+        }
+        @media screen and (max-width:576px) {
+            .container{
+                flex-direction:column ;
+            }
+            .right{
+            background-color: rgb(10, 10, 10);
+            border-radius: 5px;
+            }
+            
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>Left</h1>
+        </div>
+        <div class="right">
+            <h1>Right</h1>
+        </div>
+    </div>
+</body>
+
+</html>

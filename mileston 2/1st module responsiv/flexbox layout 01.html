@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox layout</title>
+    <style>
+        /* */
+
+        /* flex justify and align items style */
+        .container{
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-between;
+            height: 500px;
+            align-items: center;
+        }
+        p{
+            font-size: 20px;
+            background-color: rgb(122, 4, 249);
+            color: aliceblue;
+            padding: 10px;
+        }
+        /* flex direction style */
+        .container-2{
+            border: 2px solid black;
+            height: 600px;
+            display: flex;
+            flex-direction: column-reverse;
+
+        }
+        .box{
+            border: 3px dotted blue;
+            width: 100px;
+            height: 100px;
+        }
+        /* flex-wrap style */
+        .container-3{
+            border: 2px solid black;
+            height: 600px;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>flex layout</h1>
+    <p ">akhane block theke inline krte display flex krte hbe next _--justify-content er :space-around,space-between, space-evenly,/////flex-end,flex-start,center,;  justify content hr borabor bose</p> <br>
+    <p>vr borabor bosar jonno align-items:end ,center,start;kora jai</p>
+    <div class="container">
+        <h1 class="box">Box-i</h1>
+        <h1 class="box">Box-ii</h1>
+        <h1 class="box">Box-iii</h1>
+    </div>
+    <h1>flex layout : 1Ds</h1>
+    <h2>flex layout 2</h2>
+    <p>flex direction korar somoy pothome disply:flex; krte hbe next  flex-direction: column-reverse,column,row,row-reverse; </p>
+    <div class="container-2">
+        <h1 class="box">Box-1</h1>
+        <h1 class="box">Box-2</h1>
+        <h1 class="box">Box-3</h1>
+    </div>
+    <h1>layout with warp</h1>
+    <p>flex-wap krle websit er disply soto krle element gulo pore line  a chole jabe</p>
+    <div class="container-3">
+        
+        <h1 class="box">Box-1</h1>
+        <h1 class="box">Box-2</h1>
+        <h1 class="box">Box-3</h1>
+        <h1 class="box">Box-4</h1>
+        <h1 class="box">Box-5</h1>
+        <h1 class="box">Box-6</h1>
+        <h1 class="box">Box-7</h1>
+        <h1 class="box">Box-8</h1>
+        <h1 class="box">Box-9</h1>
+    </div>
+    
+</body>
+</html>

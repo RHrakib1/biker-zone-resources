@@ -1,0 +1,58 @@
+p{
+    background-color: brown;
+}
+.end{
+    color: rgb(5, 109, 114);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-weight: 40;
+}
+.start{
+    border: 3px solid blue;
+    border-radius: 10px;
+    margin: 15px 40px;
+    padding: 18px;
+    text-align:justify;
+}
+*{
+    background-color: cadetblue;
+}
+input[type="text"]{
+    margin-left:10px ;
+}
+
+input[type="password"]{
+    margin: 10px;
+}
+input[type="submit"]{
+    color: cornsilk;
+    background-color: chocolate;
+    margin: 30px;
+}
+.in{
+    box-shadow: 10px 10px 20px 6px;
+    
+}
+.fil{
+    box-shadow: 10px 8px 10px;
+}
+.div{
+    height: 400px;
+    width: 600px;
+    background-color: burlywood;
+    background-image: url("./rakib/2nd.png");
+    background-position: center;
+   
+}
+.divition{
+    background-color: blueviolet;
+    height: 800px;
+}
+.rahman{
+    width: 100px;
+    height: 100px;
+}

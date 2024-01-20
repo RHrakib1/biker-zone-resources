@@ -1,0 +1,63 @@
+.divition{
+    height: 400px;
+    width: 350px;
+    text-align: center;
+    background-color:dodgerblue;
+    background-position: center;
+    margin-left: 550px;
+    margin-top: 0px;
+    border:1px solid dodgerblue ;
+    border-radius: 5px;
+
+}
+
+.div{
+    background-color:darkcyan;
+    margin-left:65px;
+    margin-bottom: 90px;
+    box-shadow: 10px 10px 20px;
+    height: 300px;
+    width: 220px;
+    border: 1px solid darkcyan ;
+    border-radius: 5px;
+
+}
+body{
+    background-image: url('rakib/ra.png');
+    background-repeat:no-repeat ;
+    background-size:1500px 680px ;
+}
+input[type="email"]{
+    padding: 5px;
+    margin-top: 60px;
+    border: 0.5 solid white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px;
+
+}
+input[type="password"]{
+    padding: 5px;
+    margin: 10px;
+    border: 0.5 solid white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px;
+
+}
+input[type="submit"]{
+    padding: 5px;
+    margin: 10px;
+    border: 0.5 solid white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px;
+
+}
+.gas{
+   background-color:  color: chocolate;
+}
+header{
+    font-size: 90px;
+    color:rgba(0, 0, 255, 0.572);
+    margin-left: 550px;
+    
+    
+}

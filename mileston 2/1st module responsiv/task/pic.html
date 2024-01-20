@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* desktop style */
+        .desktop{
+            display: flex;
+        }
+        .pic-desktop,  img{
+            width: 100%;
+        }
+
+        /* bike style */
+        .bike{
+            display: flex;
+        }
+        .pic-bike{
+            width: 100%;
+        }
+       .rakib{
+            background-color: whitesmoke;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        .btn{
+            background-color: darkblue;
+            color: aliceblue;
+            border: 0px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        @media screen and (max-width: 876px) {
+            .desktop{
+                display: flex;
+                flex-direction: column;
+            }
+            .bike{
+                display: flex;
+                flex-direction: column;
+            }
+
+
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="desktop">
+            <div class="pic-desktop">
+                <img src="Screenshot (1).png" alt="">
+            </div>
+            <div class="rakib">
+                <h2 class="head">desktop of my life viwe</h2>
+                <p class="write">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae excepturi eligendi perspiciatis, deserunt sapiente iusto corrupti quisquam quidem corporis, expedita a tempore magni id ratione ipsa fuga suscipit! Et suscipit impedit corrupti, inventore laborum ex animi provident velit aspernatur nam?</p>
+                <button class="btn">Read More</button>
+            </div>
+        </div>
+        <div class="bike">
+            <div class="pic-bike">
+                <img src="pro_01.jpg" alt="">
+            </div>
+            <div class="rakib">
+                <h2 class="head">Bike of my life viwe</h2>
+                <p class="write">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae excepturi eligendi perspiciatis, deserunt sapiente iusto corrupti quisquam quidem corporis, expedita a tempore magni id ratione ipsa fuga suscipit! Et suscipit impedit corrupti, inventore laborum ex animi provident velit aspernatur nam?</p>
+                <button class="btn">Read More</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

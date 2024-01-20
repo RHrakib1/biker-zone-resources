@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        /* bike style */
+        .rakib{
+            display: flex;
+        }
+        .hader{
+            padding: 10px;
+            background-color: aqua;
+            border-radius: 10px;
+        }
+
+        /* desktop style */
+        .hasan{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        @media screen and (max-width: 890px) {
+            .rakib{
+            flex-direction:column ;
+        }
+        .bike img{
+            width: 100%;
+        }
+        .hasan{
+            flex-direction: column;
+        }   
+        .hader{
+            background-color: blueviolet;
+            color: whitesmoke;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="rakib">
+            <div class="bike">
+                <img src="pro_01.jpg" alt="">
+            </div>
+            <div>
+                <h1 class="hader">why do we use it?</h1>
+                <p class="hader">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem quidem illum pariatur odio vero culpa in animi quisquam maiores ducimus repudiandae nesciunt porro quae impedit, illo cupiditate? Alias repellendus accusantium vero quia eaque! Laborum quo dignissimos maiores debitis nulla labore reprehenderit doloribus quam quia! Veniam, voluptas. Cumque vitae repellat, consectetur assumenda ad impedit sunt ea incidunt. Provident distinctio itaque vel similique rerum fuga quibusdam nesciunt nemo impedit eligendi? Assumenda, magni? Possimus animi, magni non, aut eligendi, eaque nam hic dolorem tempora error architecto ipsam! Placeat, saepe nulla provident accusamus recusandae excepturi repudiandae et! Et omnis autem, quidem cum eaque nulla ab aspernatur eum dolore deleniti repellendus, doloremque nostrum, nam exercitationem. Tempore, placeat? Reiciendis blanditiis nostrum mollitia alias. Laudantium praesentium dignissimos rerum illo provident adipisci ratione voluptates laborum saepe, dolore et, esse ipsam facilis eveniet nobis, aut vitae asperiores omnis excepturi eos expedita sequi. Atque quo, optio consequuntur veritatis eum impedit nobis, vel quisquam deleniti sit natus! Expedita rem eaque libero dicta fugit fuga neque maxime vero iure. Sed nesciunt aliquam libero totam accusantium rerum est blanditiis corporis? Obcaecati nam sequi pariatur similique accusamus perspiciatis consectetur, ea minima quibusdam eum quo officiis fugiat cumque maxime laborum autem non, nisi aliquam molestias.</p>
+            </div>
+        </div>
+        <div class="hasan">
+            <div class="bike">
+                <img src="pro_01.jpg" alt="">
+            </div>
+            <div>
+                <h1 class="hader">why do we use it?</h1>
+                <p class="hader">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem quidem illum pariatur odio vero culpa in animi quisquam maiores ducimus repudiandae nesciunt porro quae impedit, illo cupiditate? Alias repellendus accusantium vero quia eaque! Laborum quo dignissimos maiores debitis nulla labore reprehenderit doloribus quam quia! Veniam, voluptas. Cumque vitae repellat, consectetur assumenda ad impedit sunt ea incidunt. Provident distinctio itaque vel similique rerum fuga quibusdam nesciunt nemo impedit eligendi? Assumenda, magni? Possimus animi, magni non, aut eligendi, eaque nam hic dolorem tempora error architecto ipsam! Placeat, saepe nulla provident accusamus recusandae excepturi repudiandae et! Et omnis autem, quidem cum eaque nulla ab aspernatur eum dolore deleniti repellendus, doloremque nostrum, nam exercitationem. Tempore, placeat? Reiciendis blanditiis nostrum mollitia alias. Laudantium praesentium dignissimos rerum illo provident adipisci ratione voluptates laborum saepe, dolore et, esse ipsam facilis eveniet nobis, aut vitae asperiores omnis excepturi eos expedita sequi. Atque quo, optio consequuntur veritatis eum impedit nobis, vel quisquam deleniti sit natus! Expedita rem eaque libero dicta fugit fuga neque maxime vero iure. Sed nesciunt aliquam libero totam accusantium rerum est blanditiis corporis? Obcaecati nam sequi pariatur similique accusamus perspiciatis consectetur, ea minima quibusdam eum quo officiis fugiat cumque maxime laborum autem non, nisi aliquam molestias.</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>component</title>
+</head>
+<style>
+    .container{
+        display: flex;
+    }
+    .container img{
+        width: 100%;
+    }
+    .container div{
+        width: 50%;
+    }
+    @media screen and (max-width: 850px){
+        .container{
+            flex-direction: column;
+            width: 50%;
+        }
+        body{
+            background-color: aquamarine;
+        }
+    }
+</style>
+<body>
+    <ol>
+        <li>viewport meta tag</li>
+        <li>css pelative unit</li>
+        <li>body max width and hr center align</li>
+        <li>image fluid</li>
+        <li>tow column flex and use media query with flex direction colum </li>
+        <li>multi column: grid layout</li>
+        <li>menu responsive</li>
+    </ol>
+    <div class="container">
+        <div>
+            <img src="food.jpg" alt="">
+        </div>
+        <div>
+            <img src="flex picture/flex 1.jpeg" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>
